@@ -1,0 +1,77 @@
+/**
+ * @stylesheet universal-feedback.scss Universal Feedback Stylesheet Title
+ * Universal Feedback stylesheet description
+ * Styles for universal feedback in the application.
+ */
+/**
+ * @styles universal-feeback Universal Feedback Styles and Link Title
+ * Universal feedback styles description.
+ * @demo demos/universal-feedback.html
+ * 
+ */
+.universal-feedback {
+  display: none;
+  width: 555px;
+  margin: 0 auto;
+  font-family: "HelveticaNeue", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 32px;
+  z-index: 20;
+  color: #444;
+  color: rgba(68, 68, 68, 0.9); }
+
+.universal-feedback .uf-message,
+.universal-feedback .uf-dismiss {
+  display: inline-block;
+  vertical-align: middle;
+  background: #f0ec7f; }
+
+.universal-feedback .uf-message {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  height: 12px;
+  line-height: 1;
+  font-size: 14px;
+  padding: 9px 10px 11px 10px;
+  font-weight: 500;
+  letter-spacing: .034em;
+  max-width: 500px; }
+
+.universal-feedback .large-icon {
+  background-image: none;
+  height: 32px;
+  width: 32px;
+  text-indent: 9999px; }
+
+.universal-feedback .uf-dismiss .large-icon {
+  border-left: 1px solid #fff;
+  background-position: -32px -178px; }
+
+.universal-feedback.uf-error,
+.universal-feedback.uf-success {
+  color: #fff; }
+
+.universal-feedback.uf-visible,
+.universal-feedback .uf-dismiss a {
+  display: block; }
+
+.universal-feedback.uf-success .large-icon,
+.universal-feedback.uf-error .large-icon {
+  background-position: 0 -178px; }
+
+.universal-feedback.uf-error .uf-message,
+.universal-feedback.uf-error .uf-dismiss {
+  background: #ed5858; }
+
+.universal-feedback.uf-success .uf-message,
+.universal-feedback.uf-success .uf-dismiss {
+  background: #84cf8e; }
+
+/*# sourceMappingURL=universal-feedback.css.map */
