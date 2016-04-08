@@ -1,13 +1,13 @@
 /**
  * @stylesheet button.scss Button Stylesheet Title
- * Button stylesheet description
- * Styles for buttons in the application.
+ * @parent components 0
+ *
  */
 /**
  * @styles basicButton Button Styles and Link Title
  * Button styles description.
  * @demo demos/button.html
- * 
+ *
  */
 .btn {
   font-family: "HelveticaNeue", "Helvetica Neue", Arial, Helvetica, sans-serif;

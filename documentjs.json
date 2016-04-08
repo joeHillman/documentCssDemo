@@ -1,8 +1,9 @@
 {
   "sites": {
-    "styles": {
-      "glob": "styles/*.{scss, css, md}",
-      "dest": "styleguide"
+      "styles": {
+        "parent": "living-style-guide",
+        "glob": "styles/*.{md,scss}",
+        "dest": "styleguide"
     }
   }
 }
