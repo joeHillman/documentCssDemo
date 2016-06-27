@@ -1,16 +1,18 @@
+/* stylelint-disable */
 /**
  * @stylesheet button.scss Button Stylesheet Title
- * @parent living-style-guide-components 0
+ * @group widgets 0
  *
  */
 
  /**
-  * @styles basicButton Button Styles and Link Title
-  * Button styles description.
+  * @styles /buttons lifeIMAGE Buttons
+  * Button styles We have various buttons types.
+  * Button styles might include a small, disabled, primary, and secondary style.
   * @demo demos/button.html
   *
   */
-
+/* stylelint-enable */
 .btn {
   font-family: "HelveticaNeue", "Helvetica Neue", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
@@ -28,7 +30,7 @@
   padding: 5px 12px;
   font-size: 14px;
   line-height: 1.428571429;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
 .btn:hover,
